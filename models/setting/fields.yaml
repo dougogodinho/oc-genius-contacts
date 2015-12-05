@@ -1,0 +1,21 @@
+# ===================================
+#  Form Field Definitions
+# ===================================
+
+fields:
+
+    form_email:
+        label: E-mail para recebimento de contatos por formulário
+
+    title:
+        label: Título
+
+    text:
+        label: Texto
+        type: richeditor
+        size: medium
+
+    contacts:
+        label: Contatos
+        type: richeditor
+        size: giant

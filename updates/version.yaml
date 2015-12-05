@@ -1,0 +1,4 @@
+1.0.1:
+    - First version of Contacts
+    - create_settings_table.php
+    - create_contacts_table.php

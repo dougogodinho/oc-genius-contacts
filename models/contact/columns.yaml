@@ -1,0 +1,22 @@
+# ===================================
+#  List Column Definitions
+# ===================================
+
+columns:
+
+    id:
+        label: '#'
+        searchable: true
+
+    is_read:
+        label: Lido
+        type: partial
+        path: ~/plugins/genius/base/partials/list/checkbox.htm
+
+    created_at:
+        label: Data
+        type: timesince
+
+    name: Nome
+
+    email: 'E-mail'

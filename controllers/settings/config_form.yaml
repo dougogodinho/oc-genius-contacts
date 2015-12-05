@@ -1,0 +1,31 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: genius.contacts::lang.setting.label
+
+# Model Form Field configuration
+form: $/genius/contacts/models/setting/fields.yaml
+
+# Model Class name
+modelClass: Genius\Contacts\Models\Setting
+
+# Default redirect location
+defaultRedirect: genius/contacts/settings
+
+# Create page
+create:
+    title: genius.contacts::lang.setting.create_title
+    redirect: genius/contacts/settings/update/:id
+    redirectClose: genius/contacts/settings
+
+# Update page
+update:
+    title: genius.contacts::lang.setting.update_title
+    redirect: genius/contacts/settings
+    redirectClose: genius/contacts/settings
+
+# Preview page
+preview:
+    title: genius.contacts::lang.setting.preview_title

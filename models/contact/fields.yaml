@@ -1,0 +1,30 @@
+# ===================================
+#  Form Field Definitions
+# ===================================
+
+fields:
+
+    name:
+        label: Nome
+        span: left
+
+    created_at_date:
+        label:  Data de Recebimento
+        span: right
+
+    email:
+        label:  'E-mail'
+        span: left
+
+    phone:
+        label: Telefone
+        span: right
+
+    text:
+        label: Mensagem
+        type: textarea
+
+    is_read:
+        label: Lido
+        type: checkbox
+

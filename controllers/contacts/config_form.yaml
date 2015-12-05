@@ -1,0 +1,31 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: genius.contacts::lang.contact.label
+
+# Model Form Field configuration
+form: $/genius/contacts/models/contact/fields.yaml
+
+# Model Class name
+modelClass: Genius\Contacts\Models\Contact
+
+# Default redirect location
+defaultRedirect: genius/contacts/contacts
+
+# Create page
+create:
+    title: genius.contacts::lang.contact.create_title
+    redirect: genius/contacts/contacts/update/:id
+    redirectClose: genius/contacts/contacts
+
+# Update page
+update:
+    title: genius.contacts::lang.contact.update_title
+    redirect: genius/contacts/contacts
+    redirectClose: genius/contacts/contacts
+
+# Preview page
+preview:
+    title: genius.contacts::lang.contact.preview_title
